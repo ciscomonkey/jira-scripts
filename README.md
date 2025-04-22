@@ -3,5 +3,5 @@
 Just some quick and dirty Jira scripts to scrape work for current and previous sprints.
 
 ```work.py``` - Generates current worklogs from active sprints.
-å
+
 ```worklog.py``` - Generates worklogs from the previous sprints.
