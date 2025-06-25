@@ -5,6 +5,7 @@ description = "Simple JIRA data collection scripts"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
+    "python-dateutil>=2.9.0.post0",
     "python-dotenv>=1.1.0",
     "requests>=2.32.3",
 ]
