@@ -116,7 +116,7 @@ if boards:
             for sprint in sorted_closed_sprints:
                 sprint_end_dt = datetime.fromisoformat(sprint["endDate"].replace('Z', '+00:00'))
                 # Include sprints that ended within 7 days of the most recent one
-                if (most_recent_end_dt - sprint_end_dt).days <= 7:
+                if (most_recent_end_dt - sprint_end_dt).days <= 14:
                     recent_sprints.append(sprint)
             
             print(f"  Found {len(recent_sprints)} recently closed sprints on this board")
